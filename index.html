@@ -11,13 +11,13 @@
       text-align: center;
       padding-top: 50px;
     }
-    h2, p, a {
+    h2, p, a, b {
       color: #fff;
       text-shadow: none;
     }
     a {
       font-size: 1.5em;
-      color: #ccc;
+      color: #fff;
       text-decoration: underline;
     }
     img {
@@ -26,9 +26,9 @@
       border: 3px solid #fff;
       filter: grayscale(100%);
     }
+    /* نخفي عنصر الصوت */
     audio {
-      margin-top: 20px;
-      width: 300px;
+      display: none;
     }
   </style>
 </head>
@@ -49,10 +49,9 @@
   
   <p><b>Hacked by:</b> BinZayed , SaDDaM , Azzam , Nahyan</p>
 
-  <!-- Adding Audio -->
-  <audio controls autoplay>
+  <!-- تشغيل الصوت بدون عرض -->
+  <audio autoplay>
     <source src="https://cdn.discordapp.com/attachments/1105145629384122410/1253464502519730216/3mkLamarr.mp3?ex=67f79209&is=67f64089&hm=e87458c794e501bb8d2ee4a0462f5ff76ac22791cd28cfffd5c26c2b53f2608c&" type="audio/mp3">
-    Your browser does not support the audio element.
   </audio>
 </body>
 </html>
